@@ -15,7 +15,7 @@ QRCODE generation:
 
 
 
-process.processQrCode("00020101021128184614460120002574375303404540597.005802KE5914KONNECT WALLET6007NAIROBI61020082262024-06-12 17:28:40.7381586304ED73");
+process.processQrCode("00020101021128134509123******53034045802KE5906******82262024-06-13 13:01:17.827890630469FF");
 
 
 ## Getting Started
@@ -24,7 +24,5 @@ Add this package to your `pubspec.yaml` file:
 
 
 
-```yaml
 dependencies:
-  kenya_qr_code:
-    path: ../KE-QR
+  ke_qr: ^1.0.0
