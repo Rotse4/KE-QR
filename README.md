@@ -27,4 +27,4 @@ Add this package to your `pubspec.yaml` file:
 ```yaml
 dependencies:
   kenya_qr_code:
-    path: ../kenya_qr_code
+    path: ../KE-QR
