@@ -10,7 +10,7 @@ void main() {
   /* PROCESSING QR CODES */
 
   Process process = Process();
-  var data=process.processQrCode("00020101021128184614460120002574375303404540597.005802KE5914KONNECT WALLET6007NAIROBI61020082262024-06-12 17:28:40.7381586304ED73");
+  var data=process.processQrCode("00020101021128134509123******53034045802KE5906******82262024-06-13 13:01:17.827890630469FF");
   print(data.transactionAmount?.value);
 
   //for ids with more than one value eg paymentadress you will access the list like shown below
@@ -23,12 +23,12 @@ void main() {
   /* BUILDING QR CODE */
 
   QrBuild qrBuild = QrBuild();
-    //The uncommented data is Mandatory
+    //The uncommented data is Mandatory ID 63 is added in default
     Map<String, String> buildingData = {
     "00": "01", // Don't change this
     "01": "11", // switch beween static and dynamic 11/12
     // "02": "12345678", // global PSPs visa mastercard etc 
-    "28": "******",//paymentAddress
+    "28": "123******",//paymentAddress
     // "52": "4900",
     "53": "404", 
     // "54": "297.00",
